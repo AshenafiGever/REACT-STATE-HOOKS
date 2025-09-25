@@ -3,7 +3,7 @@ import "./Counter.css";
 
 function CounterUsingHooksUseState() {
   // console.log(useState("evangaditech"));
-  const [bootCamp,setBootcamp]=useState("Evanagadi")
+  const [bootCamp,setBootcamp]=useState("TopEvanagadi")
 
   let [count, setCount] = useState(0);
   const increment = () => {
@@ -19,8 +19,7 @@ function CounterUsingHooksUseState() {
       <h1>{count} </h1>
       <h1>{setCount}</h1>{" "}
       <button className="green" onClick={increment}>
-        {" "}
-        Increment By ten
+            Increment By ten
       </button>
     </div>
   );
