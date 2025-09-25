@@ -5,6 +5,7 @@ import Rating from "./Components/Rating";
 import UsingClassLifeCycleComponent from "./Components/UsingClassLifeCycleComponent";
 import CounterUsingHooksUseState from "./Components/CounterUsingHooksUseState";
 import Callbackfunctionupdate from "./Components/Callbackfunctionupdate";
+import UseEffect from "./Components/UseEffect";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <UsingClassLifeCycleComponent />
         <CounterUsingHooksUseState />
         <Callbackfunctionupdate/>
+        <UseEffect/>
       </div>
     </>
   );
